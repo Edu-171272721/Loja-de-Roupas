@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MENU</title>
+    <link rel="stylesheet" href="TESTE.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo"
+        ><img
+          src="imagens/logo5_branco.png"
+          alt="LOGO"
+          width="100px"
+          height="50px"
+      /></a>
+
+      <input type="checkbox" id="menu-bar" />
+      <label for="menu-bar">Menu</label>
+
+      <nav class="navbar">
+        <ul>
+          <li><a href="#">home</a></li>
+          <li><a href="#">masculino</a></li>
+          <li>
+            <a href="#">feminino</a>
+            <ul>
+              <li><a href="#">blogs</a></li>
+              <li>
+                <a href="#">services +</a>
+                <ul>
+                  <li><a href="#">html</a></li>
+                  <li><a href="#">css</a></li>
+                  <li><a href="#">java</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">+categorias</a>
+            <ul>
+              <li><a href="#">gird gallery</a></li>
+              <li><a href="#">flex gallery</a></li>
+            </ul>
+          </li>
+          <li><a href="LOGIN_pagina/LOGIN_TESTE.html">cadastrar</a></li>
+          <li>
+            <div class="search-box">
+              <input
+                type="text"
+                class="search-text"
+                placeholder="Pesquisar..."
+              />
+              <a class="search-btn">
+                <img
+                  class="lupa"
+                  src="icones/loupe-white.svg"
+                  width="20px"
+                  height="20px"
+                  alt="oi"
+                />
+                <img
+                  class="lupa-azul"
+                  src="icones/loupe-blue.svg"
+                  width="20px"
+                  height="20px"
+                  alt="oi"
+                />
+              </a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="search-box">
+      <input type="text" class="search-text" placeholder="Pesquisar..." />
+      <a class="search-btn">
+        <img
+          class="lupa"
+          src="./loupe-white.svg"
+          width="25"
+          height="25"
+          alt=""
+        />
+        <img
+          class="lupa-azul"
+          src="./loupe-blue.svg"
+          width="25"
+          height="25"
+          alt=""
+        />
+      </a>
+    </div>
+
+    <div class="slider">
+      <div class="slides">
+        <input type="radio" name="radio-btn" id="radio1" />
+        <input type="radio" name="radio-btn" id="radio2" />
+        <input type="radio" name="radio-btn" id="radio3" />
+        <input type="radio" name="radio-btn" id="radio4" />
+        <div class="slide" id="slide_first">
+          <img
+            class="tenis_cima1"
+            src="imagens/tenis1cima.jpg"
+            alt="Imagem 1"
+          />
+        </div>
+        <div class="slide">
+          <img
+            class="tenis_cima2"
+            src="imagens/tenis1cima.jpeg"
+            alt="Imagem 2"
+          />
+        </div>
+        <div class="slide">
+          <img
+            class="tenis_cima3"
+            src="imagens/tenis2cima.jpg"
+            alt="Imagem 3"
+          />
+        </div>
+        <div class="slide">
+          <img
+            class="tenis_cima4"
+            src="imagens/tenis3cima.png"
+            alt="Imagem 3"
+          />
+        </div>
+        <div class="navigation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+          <div class="auto-btn4"></div>
+        </div>
+      </div>
+      <div class="manual-navigation">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+
+    <div class="meio">
+      <div class="titulo_lanc">
+        <strong class="titulo1">Lançamentos</strong>
+      </div>
+
+      <div class="bolas">
+        <div class="bola">
+          <div class="bolapreta">
+            <img class="imagem" src="imagens/nike-logo-1995.png" alt="oi" />
+          </div>
+          <span class="marca0">Nike</span>
+        </div>
+        <div class="bola">
+          <div class="bolapreta" id="bolapreta1">
+            <img
+              class="imagem"
+              src="imagens/3-poloski-adidas-logo.png"
+              alt="oi"
+            />
+          </div>
+          <span class="marca1">Adidas</span>
+        </div>
+        <div class="bola">
+          <div class="bolapreta">
+            <img class="imagem" src="imagens/Fendi_logo.png" alt="oi" />
+          </div>
+          <span class="marca2">Fendi</span>
+        </div>
+        <div class="bola">
+          <div class="bolapreta">
+            <img class="imagem" src="imagens/Gucci_logo.png" alt="oi" />
+          </div>
+          <span class="marca3">Gucci</span>
+        </div>
+        <div class="bola">
+          <div class="bolapreta">
+            <img class="imagem" src="imagens/Lacoste-logo.png" alt="oi" />
+          </div>
+          <span class="marca4">Lacoste</span>
+        </div>
+        <div class="bola">
+          <div class="bolapreta">
+            <img class="imagem" src="imagens/Burberry-Logo.png" alt="oi" />
+          </div>
+          <span class="marca5">Burberry</span>
+        </div>
+        <div class="bola">
+          <div class="bolapreta">
+            <img
+              class="imagem"
+              src="imagens/versace-primary-logo.png"
+              alt="oi"
+            />
+          </div>
+          <span class="marca6">Versace</span>
+        </div>
+        <div class="bola">
+          <div class="bolapreta">
+            <img class="imagem" src="imagens/Chanel_logo.png" alt="oi" />
+          </div>
+          <span class="marca7">Chanel</span>
+        </div>
+      </div>
+
+      <div class="molduras">
+        <div class="moldura" id="moldura0">
+          <img
+            class="produto"
+            src="imagens/camisapreta.jpeg"
+            alt="oi"
+            height="360px"
+            width="360px"
+          />
+          <a class="nome_camisa" href="#">camisa ALONGADA</a>
+          <h2 class="preco">R$199</h2>
+          <h3 class="parcelas">6x de R$33,33</h3>
+          <a href="#" class="comprar"><h3>compre agora</h3></a>
+        </div>
+        <div class="moldura" id="moldura1">
+          <img
+            class="produto"
+            src="imagens/camisaazul.jpeg"
+            alt="oi"
+            height="360px"
+            width="360px"
+          />
+          <a class="nome_camisa" href="#">camisa azul</a>
+          <h2 class="preco">R$199</h2>
+          <h3 class="parcelas">6x de R$33,33</h3>
+          <a href="#" class="comprar"><h3>compre agora</h3></a>
+        </div>
+        <div class="moldura" id="moldura2">
+          <img
+            class="produto"
+            src="imagens/camisabege.jpeg"
+            alt="oi"
+            height="360px"
+            width="360px"
+          />
+          <a class="nome_camisa" href="#">camisa bege</a>
+          <h2 class="preco">R$199</h2>
+          <h3 class="parcelas">6x de R$33,33</h3>
+          <a href="#" class="comprar"><h3>compre agora</h3></a>
+        </div>
+        <div class="moldura" id="moldura3">
+          <img
+            class="produto"
+            src="imagens/camisamarrom.jpeg"
+            alt="oi"
+            height="360px"
+            width="360px"
+          />
+          <a class="nome_camisa" href="#">camisa marrom</a>
+          <h2 class="preco">R$199</h2>
+          <h3 class="parcelas">6x de R$33,33</h3>
+          <a href="#" class="comprar"><h3>compre agora</h3></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="barra_promo">
+      <div class="imgs">
+        <div class="part">
+          <img
+            class="img"
+            src="imagens/icons8-gráfico-de-barras-64.png"
+            alt="oi"
+          />
+
+          <div class="titulos">
+            <span class="titulo_promo">5% DE DESCONTO</span>
+            <span class="titulo_promo1"
+              >Nos pagamentos realizados no PIX ou BOLETO</span
+            >
+          </div>
+        </div>
+
+        <div class="part">
+          <img
+            class="img"
+            src="imagens/icons8-cartão-de-crédito-64.png"
+            alt="oi"
+          />
+
+          <div class="titulos">
+            <span class="titulo_promo">PARCELE SUAS COMPRAS</span>
+            <span class="titulo_promo1">Em até 6x sem juros</span>
+          </div>
+        </div>
+
+        <div class="part">
+          <img class="img" src="imagens/icons8-verificado-48.png" alt="oi" />
+
+          <div class="titulos">
+            <span class="titulo_promo">COMPRA SEGURA</span>
+            <span class="titulo_promo1">Ambiente protegido</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fundo_preto">
+      <div class="meio_imagens">
+        <div class="categoria1">
+          <div class="imagem1">
+            <img class="moletom" src="imagens/7099468163_1.jpg" />
+            <h3 class="nome_moletom">MOLETONS</h3>
+          </div>
+
+          <div class="imagem2">
+            <img
+              class="tenis"
+              src="imagens/Fly_Streetwear_Dunk_feature_images-.jpg"
+            />
+            <h3 class="nome_tenis">CALÇADOS</h3>
+          </div>
+        </div>
+
+        <div class="categoria2">
+          <img
+            class="calca"
+            src="imagens/S3af726d7baaf4121b712b4827c9b0b6aZ.jpg"
+          />
+          <h3 class="nome_calca">CALÇAS</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="destaques">
+      <div class="titulo_destaques">
+        <strong class="titulo1">Destaques</strong>
+      </div>
+
+      <div class="imagens_destaques">
+        <div class="molduras">
+          <div class="moldura" id="moldura0">
+            <img
+              class="produto"
+              src="imagens/camisapreta.jpeg"
+              alt="oi"
+              height="360px"
+              width="360px"
+            />
+            <a class="nome_camisa" href="#">camisa ALONGADA</a>
+            <h2 class="preco">R$199</h2>
+            <h3 class="parcelas">6x de R$33,33</h3>
+            <a href="#" class="comprar"><h3>compre agora</h3></a>
+          </div>
+          <div class="moldura" id="moldura1">
+            <img
+              class="produto"
+              src="imagens/camisaazul.jpeg"
+              alt="oi"
+              height="360px"
+              width="360px"
+            />
+            <a class="nome_camisa" href="#">camisa azul</a>
+            <h2 class="preco">R$199</h2>
+            <h3 class="parcelas">6x de R$33,33</h3>
+            <a href="#" class="comprar"><h3>compre agora</h3></a>
+          </div>
+          <div class="moldura" id="moldura2">
+            <img
+              class="produto"
+              src="imagens/camisabege.jpeg"
+              alt="oi"
+              height="360px"
+              width="360px"
+            />
+            <a class="nome_camisa" href="#">camisa bege</a>
+            <h2 class="preco">R$199</h2>
+            <h3 class="parcelas">6x de R$33,33</h3>
+            <a href="#" class="comprar"><h3>compre agora</h3></a>
+          </div>
+          <div class="moldura" id="moldura3">
+            <img
+              class="produto"
+              src="imagens/camisamarrom.jpeg"
+              alt="oi"
+              height="360px"
+              width="360px"
+            />
+            <a class="nome_camisa" href="#">camisa marrom</a>
+            <h2 class="preco">R$199</h2>
+            <h3 class="parcelas">6x de R$33,33</h3>
+            <a href="#" class="comprar"><h3>compre agora</h3></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer></footer>
+  </body>
+</html>
